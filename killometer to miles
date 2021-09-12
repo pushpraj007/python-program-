@@ -1,0 +1,6 @@
+
+kilometers = float(input("Enter value in kilometers: "))
+# 1 km = 0.621371
+conv_fac = 0.621371
+miles = kilometers * conv_fac
+print('%0.2f kilometers = %0.2f miles' %(kilometers,miles))
